@@ -1,0 +1,4 @@
+interface:
+  display_name: "Legend Game Visual Design"
+  short_description: "Legend promo ads, KVs, and prompts"
+  default_prompt: "Use $legend-game-visual-design to analyze or redesign a Legend/Mir promotional image, automatically applying the bundled local Huaban buy-traffic reference samples while preserving protected layout anchors and improving hierarchy, readability, color, and conversion appeal."

@@ -1,0 +1,5 @@
+# 默认忽略工作区中的其他项目和本地产物。
+/*
+!/.gitignore
+!/legend-game-visual-design/
+!/legend-game-visual-design/**
