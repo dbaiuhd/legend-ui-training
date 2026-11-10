@@ -1,4 +1,4 @@
-﻿---
+---
 name: legend-game-visual-design
 description: Design and redesign Chinese Legend/Mir-style game marketing images, buy-traffic ads, store screenshots, five-image store sets, public-account banners, launch banners, server-opening promos, 996 box visuals, and fantasy key visuals. Use when the user asks for cleaner, more premium, less dirty, layout-preserving, style-changing, batch material directions, keywords, selling-point analysis, color analysis, or image-generation prompts for Legend/Mir promotional artwork; automatically use the bundled local Huaban buy-traffic reference sample library when relevant, especially with ui-ux-pro-max and api2img.
 ---
@@ -315,10 +315,17 @@ When the user says supplied Legend images are bad, especially overly festive red
 
 When the user provides in-game Legend/Mir UI screenshots or empty panel frames, treat them as high-value references for functional interface design rather than marketing key art.
 
+### Approved Circular Panels And Story Quest Art
+
+- For 圆盘养成、八卦、神器、镶嵌、剧情任务图、NPC功能图、专属装备任务、功法或秘境解锁, read [references/approved-ui-story-20261110.md](references/approved-ui-story-20261110.md). It records 18 user-approved examples and links their original images.
+- Distinguish standard functional windows from illustrated quest/function panels. Standard windows retain the dry black-iron default. Story/function panels may use a themed character, creature, location, calligraphic heading, and localized cyan, green, red, or gold light while keeping actual text, attributes, costs, rewards, and item slots readable.
+- Do not force illustrated quest panels into a generic title-bar/left-navigation/bottom-button template, or mistake them for buy-traffic banners because they contain large art and titles. Classify by the task, progression, and interaction content.
+- Approval applies to composition and visual language; low-resolution compression, unreadable small text, and uncertain exterior transparency in the examples are not output requirements.
+
 Preferred panel language:
 
 - User-trained default taste for all functional UI:
-  - 所有功能 UI 全局默认使用低饱和、干燥黑铁；活动、福利、商城也必须先读成粗粝的传奇端游黑铁界面，不能另起亮金手游材质体系。
+  - 标准功能窗口默认使用低饱和、干燥黑铁；活动、福利、商城也必须先读成粗粝的传奇端游黑铁界面，不能另起亮金手游材质体系。插画式剧情任务与专属功能图按上面的独立分支选择主题场景和局部配色，信息区仍保持清晰可读。
   - 古铜与暗金仅用于少量标题文字、按钮细边、关键数值或极小结构提示，不作为大面积主材质；大面仍由暗石、干燥黑铁和低亮内容床承担。
   - 重度做旧必须遵循“外重内静”：外框、标题条、按钮外壳、铆钉和机械结构可以有明显划痕、氧化、缺口与石化磨损；内容床、文字底和道具格内部保持安静、低噪声、可读。
   - 优先拒绝现代手游化、玻璃拟态、亮渐变、胶囊按钮，以及装饰压过功能、黑金假高级和全面脏旧。龙头、角花、宝石与金边不能侵占真实内容；整屏亮金、均匀金色描边、奢华会所感和内容区全面高噪声做旧都属于失败方向。
@@ -430,6 +437,10 @@ If the previous result was too dirty, explicitly add:
 ```
 
 ## Learning From User Images
+
+### Skill Maintenance And GitHub Sync
+
+When the user asks to train, strengthen, or edit this skill, synchronize each completed local update to `https://github.com/dbaiuhd/legend-ui-training`, under `legend-game-visual-design/`. This is the user's standing instruction for skill maintenance, including approved reference images and supporting files. Inspect the current remote version and preserve unrelated changes, validate the skill, commit the intended update, and push using available GitHub credentials. Never force-push. If authentication or a conflict prevents synchronization, keep the local update and report the unsynced state accurately. Ordinary design or prompt requests do not authorize skill edits or repository writes by themselves.
 
 The user can strengthen this skill with reference images. Ask them to label each image as one of:
 
