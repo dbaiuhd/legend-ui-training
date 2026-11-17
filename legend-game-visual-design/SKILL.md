@@ -13,6 +13,8 @@ description: Design, analyze, and write image prompts for Chinese Legend/Mir gam
 
 ## 按资产读取规则
 
+用户指定“暗黑超变”，或继续本套深灰暗黑超变界面时，先读独立风格规范 [暗黑超变](references/dark-chaobian.md)，再按实际功能补充下表中的布局规则。本分支的材质、边框与装饰要求优先于通用参考中的厚框、龙头、标题牌建议；不把该分支配色推广到其他传奇项目。
+
 | 当前任务 | 必须读取 | 按需补充 |
 | --- | --- | --- |
 | 标准功能窗口、边框、按钮、奖励列表、聊天框、背包格、九宫格 | [functional-ui-design.md](references/functional-ui-design.md) | 单个组件读取 [UI 组件板](references/huaban-87590395-legend-ui-popup-board.md)；成套弹窗读取 [成套 UI 板](references/huaban-90162179-legend-ui-popup-board.md) |
