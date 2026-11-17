@@ -18,12 +18,14 @@ description: Design, analyze, and write image prompts for Chinese Legend/Mir gam
 | 标准功能窗口、边框、按钮、奖励列表、聊天框、背包格、九宫格 | [functional-ui-design.md](references/functional-ui-design.md) | 单个组件读取 [UI 组件板](references/huaban-87590395-legend-ui-popup-board.md)；成套弹窗读取 [成套 UI 板](references/huaban-90162179-legend-ui-popup-board.md) |
 | 圆盘养成、八卦、神器镶嵌 | [approved-ui-story-20261110.md](references/approved-ui-story-20261110.md) 的圆盘规则与原图 01–05 | 圆盘嵌入标准窗时补充功能窗口规则 |
 | 剧情任务、NPC功能、专属装备、功法、秘境解锁 | [approved-ui-story-20261110.md](references/approved-ui-story-20261110.md) 的剧情规则与相关原图 06–18 | 出现常规按钮、道具槽等组件时补充对应 UI 规则 |
+| 武神养成、装备展示、五行礼包、主题特权弹窗、元素切换、跨服地图宣战 | [approved-themed-ui-20261117.md](references/approved-themed-ui-20261117.md)，按类别查看相关原图 | 属性表、列表与常规控件补充功能窗口规则；圆盘补充既有圆盘规则 |
+| 世界地图选区、龙宫探索/排行、战令矩阵、收藏图鉴、档位礼包对比、宝阁奖池、开服活动多子页 | [approved-activity-systems-20261117.md](references/approved-activity-systems-20261117.md)，按索引查看相关原图 | 标准表格补充功能窗口规则；武神、元素与特权按需补充主题界面规则 |
 | 宣传图、买量图、商店五图、公众号横幅、开服 KV | [marketing-design.md](references/marketing-design.md) | 买量任务读取 [买量板](references/huaban-buy-traffic-board.md)；横幅/KV 读取 [banner 板](references/huaban-19157479-banner-board.md) |
 | 独立游戏 Logo、题字、标题资产 | [logo-design.md](references/logo-design.md) | 只借用其他类别中与本任务相关的材质或字形线索 |
 
 按用户目标和实际功能分类。剧情图有大人物和题字也可能是游戏内任务；包含背包或奖励表的图片也可能是广告。混合任务选择主要用途，再补充必要组件规则。常规 UI 不加载宣传板，也不套用广告 CTA、夸张数字或红金火焰。
 
-本地花瓣素材在 `assets/huaban-board-100278708/raw`，来源索引在 `assets/huaban-board-100278708/manifest.json`；用户认可的 18 张面板与剧情图在 `assets/user-approved-ui-story-20261110/`。只查看当前类别需要的样例。这些是参考资料，不代表模型权重经过训练。
+本地花瓣素材在 `assets/huaban-board-100278708/raw`，来源索引在 `assets/huaban-board-100278708/manifest.json`；用户认可的 18 张面板与剧情图在 `assets/user-approved-ui-story-20261110/`；2026-11-17 上传的 8 张主题界面去重后为 7 张，位于 `assets/user-approved-themed-ui-20261117/`。同日从 `jn` 目录补充 44 个文件、38 张不重复活动系统参考，入口为 `assets/user-approved-activity-systems-20261117/manifest.json`；完全相同的既有素材复用原路径，文件对应关系以各 manifest 为准。只查看当前类别需要的样例。这些是参考资料，不代表模型权重经过训练。
 
 ## 共同工作要求
 
@@ -52,6 +54,7 @@ description: Design, analyze, and write image prompts for Chinese Legend/Mir gam
 ## 输出与验收
 
 - 学习参考的构图、材质、色彩与信息关系；具体角色、文字、徽记和图案按用户本次要求使用。
+- 功能原型包含人物时默认保留该人物；其他风格参考只用于其明确分工，不自动替换人物。修订提示词时输出包含全部已确认要求的完整版本，并在之后列出参考图上传顺序与各图用途。
 - 中文字形、数字与标识需要准确。独立无字资产不擅自添加题字；用户要求文字时使用给定文案。缩略图读不清的文字不猜写。
 - 按目标使用尺寸检查文字与槽位可辨性、边框厚度、间距、对齐和主体遮挡。尺寸未知时不虚构已验证的游戏内效果。
 - 圆盘额外核对槽位数量、等距排列、中心可见与外轮廓完整；剧情图核对说明、条件、材料和奖励的层级；标准 UI 核对控件及所需状态的一致性。
@@ -64,5 +67,7 @@ description: Design, analyze, and write image prompts for Chinese Legend/Mir gam
 ## 学习与维护
 
 用户提供好例、坏例、布局或风格参考时，提炼认可的具体维度与适用类别。已明确标注的资料直接处理，不重复要求标注；笼统认可的整组图可提炼共同特征，但不能替用户编造逐图偏好。保存必要原图，给详细参考建立入口，优先修正重复或冲突规则。
+
+用户只表示“这些图可以学习”时，直接按整组正例接收，自行分析构图、材质、层级和控件关系，不要求用户描述美术术语或逐张指定学习点。记录整组认可与设计分析的区别；题材不同则分类归纳，重复图保留上传映射，不重复计数。认可主题图中的强光、龙形结构或异形边缘，不等于要求常规功能窗全部采用这些表现。
 
 维护本技能时，用户要求每次更新均同步到 `https://github.com/dbaiuhd/legend-ui-training` 的 `legend-game-visual-design/`。检查远程新改动并保留无关内容，修改后运行 `skill-creator/scripts/quick_validate.py`（Windows 可用 `python -X utf8`），检查引用和素材，再提交、推送并核实远程提交。不强制推送；同步失败保留本地更新并准确说明。普通设计请求本身不表示要求修改技能或仓库。

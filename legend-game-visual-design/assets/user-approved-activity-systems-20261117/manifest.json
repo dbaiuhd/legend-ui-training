@@ -1,0 +1,471 @@
+{
+  "source_directory": "D:\\工作图片\\散图\\jn",
+  "date": "2026-11-17",
+  "file_count": 44,
+  "unique_count": 38,
+  "numbering": "filename-sorted unique SHA-256, not upload order",
+  "images": [
+    {
+      "id": "01",
+      "sha256": "9d6763df5b7475d974922c17bdff71a4fe60ad55ffbfbd7c4a256f4bb965304c",
+      "size": [
+        1415,
+        722
+      ],
+      "sources": [
+        "codex-clipboard-0587df56-83ce-40e2-9d83-0e7020d4162b.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/01.png"
+    },
+    {
+      "id": "02",
+      "sha256": "93e1289898527258b950664828a0a24b1d2cd559d7d982499943e62c67a762b7",
+      "size": [
+        1396,
+        712
+      ],
+      "sources": [
+        "codex-clipboard-080ae3a8-5fe1-416d-9909-cbd392c6f835.png",
+        "codex-clipboard-e524a325-2234-45c7-83dd-61472d6c4844.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/02.png"
+    },
+    {
+      "id": "03",
+      "sha256": "206f3f7d1ea41fc2c203e4fc7fe8075adce079092e0fe2c8cdf35f24f20d304b",
+      "size": [
+        1416,
+        816
+      ],
+      "sources": [
+        "codex-clipboard-0ff233db-e81e-4140-96a3-57dc7fccc779.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/03.png"
+    },
+    {
+      "id": "04",
+      "sha256": "a1f49d9ae9ba78e1eec64882fb771b1f50f5c76eb62dd69827a4a4eb81bed06a",
+      "size": [
+        1482,
+        920
+      ],
+      "sources": [
+        "codex-clipboard-180274bb-5431-4030-aa5e-d2b05d312b8b.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/04.png"
+    },
+    {
+      "id": "05",
+      "sha256": "29db404a7bdc344cb23bb897de251fb9cdbe0bc752fb673948df6179467472b2",
+      "size": [
+        1325,
+        762
+      ],
+      "sources": [
+        "codex-clipboard-18c99a11-4576-48b3-a9b3-9769e8213dda.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/05.png"
+    },
+    {
+      "id": "06",
+      "sha256": "55e421ab7259722cf968f745ac6a1c14c0daf5906e88562262df3efcf192a49e",
+      "size": [
+        1092,
+        607
+      ],
+      "sources": [
+        "codex-clipboard-1eef3b4a-21aa-446e-b38e-758c1f604b80.png"
+      ],
+      "asset": "assets/user-approved-themed-ui-20261117/06.png"
+    },
+    {
+      "id": "07",
+      "sha256": "621e2f5771bd15e8ad45bc1346b1c3d8c7b12644804ee50293f485483c8a27a7",
+      "size": [
+        1442,
+        757
+      ],
+      "sources": [
+        "codex-clipboard-35ce059e-a5f3-46d0-8563-5be19d88e03a.png",
+        "codex-clipboard-a8ea03e5-ea46-47b6-bf79-4d72c1d3f643.png"
+      ],
+      "asset": "assets/user-approved-themed-ui-20261117/07.png"
+    },
+    {
+      "id": "08",
+      "sha256": "4b2b48b6a5b0dad8f897f90d96a3ae3cf37dcc6b14bd4e0c68ad7960d947dc89",
+      "size": [
+        1274,
+        768
+      ],
+      "sources": [
+        "codex-clipboard-36d6d077-757a-4b21-9561-d0e04f76eedd.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/08.png"
+    },
+    {
+      "id": "09",
+      "sha256": "579838ef5030e929e8039cf4f26543a478b5d6d4f5aaa5c457ba658521615542",
+      "size": [
+        1255,
+        710
+      ],
+      "sources": [
+        "codex-clipboard-3975d020-f58a-49d8-a94e-a9f1a69c1ff4.png"
+      ],
+      "asset": "assets/user-approved-themed-ui-20261117/02.png"
+    },
+    {
+      "id": "10",
+      "sha256": "d5ea0852c9f5146ceaebb8cf88497ecfd6c807f7e3269744e6133272cc41fdb7",
+      "size": [
+        1384,
+        719
+      ],
+      "sources": [
+        "codex-clipboard-39767e38-e7fa-4b91-b9b5-afb80ec776b1.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/10.png"
+    },
+    {
+      "id": "11",
+      "sha256": "18baae311320ba543f1f4ad687e714e017a71268a5636290074b8310cee74a90",
+      "size": [
+        1490,
+        800
+      ],
+      "sources": [
+        "codex-clipboard-39c0b5bf-8f7c-4f9b-83f8-f569ff0d2419.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/11.png"
+    },
+    {
+      "id": "12",
+      "sha256": "4d7f03371689f9e36f59c400c07f12919eecf46ced9276b6c8eacd7ae2a23d6a",
+      "size": [
+        1449,
+        806
+      ],
+      "sources": [
+        "codex-clipboard-40ef57b3-7597-4332-80a0-50f19b06804c.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/12.png"
+    },
+    {
+      "id": "13",
+      "sha256": "65dd84b418d88b25b74e1e482c031c83cce1f6ac281f44754fad6c0aceee7b9c",
+      "size": [
+        1282,
+        863
+      ],
+      "sources": [
+        "codex-clipboard-416e6ea9-36e0-42eb-946d-46094e3cd9b9.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/13.png"
+    },
+    {
+      "id": "14",
+      "sha256": "0dcf93b8c2bb8c2364eb8d3ed8aad6cc806bc120281ec290fbe20cb9120b547f",
+      "size": [
+        1360,
+        764
+      ],
+      "sources": [
+        "codex-clipboard-4230fcb2-faa5-4d26-984d-1fce5908b933.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/14.png"
+    },
+    {
+      "id": "15",
+      "sha256": "3b981f20c9e323c8af3847fda71b078be916326126ca468cb85f053fdc44ecc0",
+      "size": [
+        1390,
+        810
+      ],
+      "sources": [
+        "codex-clipboard-50ff75b3-8e08-46c2-86e7-dc574966d912.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/15.png"
+    },
+    {
+      "id": "16",
+      "sha256": "7585a18de8ec1ba617c9d16212a5425d58b2c8581133216024764318c26094ef",
+      "size": [
+        1475,
+        888
+      ],
+      "sources": [
+        "codex-clipboard-5c4148a8-0d9f-4924-bda5-cfdf428bb7bf.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/16.png"
+    },
+    {
+      "id": "17",
+      "sha256": "6b7695619a73de1d26eb62a2f2de6c082c96dcb39a1b092e684aa98ea8a33ab1",
+      "size": [
+        1339,
+        775
+      ],
+      "sources": [
+        "codex-clipboard-5f593e62-3c64-4702-810f-7fcfb460b867.png",
+        "codex-clipboard-aef05127-b0e9-44e8-b291-90679d9fc445.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/17.png"
+    },
+    {
+      "id": "18",
+      "sha256": "f465283da1a8aedf3901e2fb3bbf4d2b3f4840698ae7b1ed81959f32892eaa87",
+      "size": [
+        1230,
+        692
+      ],
+      "sources": [
+        "codex-clipboard-66eb0d3d-cd9b-46f7-9aa8-d2a9fc4dc1d5.png"
+      ],
+      "asset": "assets/user-approved-themed-ui-20261117/04.png"
+    },
+    {
+      "id": "19",
+      "sha256": "47a0cc812bb2b5cefa71a46ae4fab4041695d6151fc04a03cc7bffc548f162d5",
+      "size": [
+        1448,
+        835
+      ],
+      "sources": [
+        "codex-clipboard-69a9742a-3249-42a5-ba9c-f7cc810dd1b1.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/19.png"
+    },
+    {
+      "id": "20",
+      "sha256": "fc490a0f6fa62a952a6a464f5067b31e95b4b9131b433cb7753a74d9ebbe2841",
+      "size": [
+        1260,
+        706
+      ],
+      "sources": [
+        "codex-clipboard-6ebd8618-df8f-4631-9217-7efc559acac0.png"
+      ],
+      "asset": "assets/user-approved-themed-ui-20261117/01.png"
+    },
+    {
+      "id": "21",
+      "sha256": "5e043278b04e27f87e63867ce86b807dcc7a8b37fc520573a33fb9bb7cc977b1",
+      "size": [
+        1333,
+        712
+      ],
+      "sources": [
+        "codex-clipboard-74f3c74b-ff39-49be-9695-6ae680d8f234.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/21.png"
+    },
+    {
+      "id": "22",
+      "sha256": "4545472eade3ec4a4a6cb8e0290a50a8066b0b854c52dbe359044750a9aad506",
+      "size": [
+        1429,
+        741
+      ],
+      "sources": [
+        "codex-clipboard-76c73cca-4c92-46d5-8be6-01a3a4423c4f.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/22.png"
+    },
+    {
+      "id": "23",
+      "sha256": "68d05b8571ab1d68d047e477986045582dfb49552e6fd9bc65a7555d23e4aa78",
+      "size": [
+        1279,
+        796
+      ],
+      "sources": [
+        "codex-clipboard-7ac6d788-bdd2-4190-85f9-1a4c0cc8786b.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/23.png"
+    },
+    {
+      "id": "24",
+      "sha256": "7f49b464cd41999552acf4d057981390d8c56ad8cfaafcb5881a6de5f8434d09",
+      "size": [
+        1424,
+        713
+      ],
+      "sources": [
+        "codex-clipboard-7fd837e0-9bbe-460a-aa0d-61c10b180c8a.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/24.png"
+    },
+    {
+      "id": "25",
+      "sha256": "4b03f84d89585d372b5bf7f28c6d647084730a284a6a2b4e7c2a09eb83359839",
+      "size": [
+        1208,
+        728
+      ],
+      "sources": [
+        "codex-clipboard-86aeaeb3-d0b9-4abf-9f7c-aab48e221a37.png"
+      ],
+      "asset": "assets/user-approved-themed-ui-20261117/03.png"
+    },
+    {
+      "id": "26",
+      "sha256": "477f661a0eec69c88010ee07427be3f726c8ad579f522ab4c9e6cbd62531fde4",
+      "size": [
+        1280,
+        736
+      ],
+      "sources": [
+        "codex-clipboard-893a9fee-3add-4680-934e-10d521685ba3.png",
+        "codex-clipboard-9278c37e-8f16-403b-a175-e3e7d03208fc.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/26.png"
+    },
+    {
+      "id": "27",
+      "sha256": "1142877fc1e9036e943072c153cdbc5397988f2267c533f84dff6c43dbc9fade",
+      "size": [
+        1359,
+        777
+      ],
+      "sources": [
+        "codex-clipboard-8c15dc75-009e-49fe-8ebf-6c274abd0180.png",
+        "codex-clipboard-e92a80e3-64fb-41b4-b5bb-571aa279b02c.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/27.png"
+    },
+    {
+      "id": "28",
+      "sha256": "cfc11baf1a65e5ecb4016fa1dd447810f8c5640d44032582da97a79d2426ab34",
+      "size": [
+        1488,
+        898
+      ],
+      "sources": [
+        "codex-clipboard-b414759d-8f96-461e-9de3-fd1b1c73ebb2.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/28.png"
+    },
+    {
+      "id": "29",
+      "sha256": "0cf9b5304c2a0352a583fe19a417d61786e8151f8357e8984c5b2bff6c8a3c2a",
+      "size": [
+        1183,
+        608
+      ],
+      "sources": [
+        "codex-clipboard-b562ca48-e19e-41e1-ae8b-875ac65dd33a.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/29.png"
+    },
+    {
+      "id": "30",
+      "sha256": "f860d7617c71a65047c9cd6c57e9e0960d13b7a380b5c0dfd0bbfd1c4039769e",
+      "size": [
+        1393,
+        846
+      ],
+      "sources": [
+        "codex-clipboard-b97c56cc-2ff2-403e-94e7-421212903ed6.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/30.png"
+    },
+    {
+      "id": "31",
+      "sha256": "24d3ef7a1c858de38e373722b645cd4d73fffce0b6f4e9bb9cff620c8c253cd1",
+      "size": [
+        1442,
+        850
+      ],
+      "sources": [
+        "codex-clipboard-c02fc81d-92bf-4c66-973b-9949f9d6ccd3.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/31.png"
+    },
+    {
+      "id": "32",
+      "sha256": "7ee4b44f8be163c7acffaccb7afb32f27b570ef9f177aa1d6900a5466c90ee96",
+      "size": [
+        1138,
+        529
+      ],
+      "sources": [
+        "codex-clipboard-c720ff12-8484-4320-96bf-782434be130d.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/32.png"
+    },
+    {
+      "id": "33",
+      "sha256": "403d8e5efbc325d2f76e028b685c3bf239a20d075531ddf554291a71510f49f1",
+      "size": [
+        1296,
+        906
+      ],
+      "sources": [
+        "codex-clipboard-c75d830e-35c3-467a-a584-263e3db01e1a.png",
+        "codex-clipboard-d5451e72-6b95-4b69-ad01-50ea0c0f0896.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/33.png"
+    },
+    {
+      "id": "34",
+      "sha256": "58664cdd3ed2a92aaca9b07e23b14e14742ce9f58dab85abeb67e6b543c9d29c",
+      "size": [
+        1206,
+        688
+      ],
+      "sources": [
+        "codex-clipboard-ca8fefb0-5ab3-47be-b4be-b67fd79e4a51.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/34.png"
+    },
+    {
+      "id": "35",
+      "sha256": "19ddb04b3a5df931a3d11583e9b423018b7b736b0070c467b7d5d01aae1fd580",
+      "size": [
+        1371,
+        841
+      ],
+      "sources": [
+        "codex-clipboard-d3b3320a-f061-406f-8233-20f5828a0cef.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/35.png"
+    },
+    {
+      "id": "36",
+      "sha256": "52202edc4fab07a01d133001e00c2d34d62391e972ad52b853ebe7a5835ec97a",
+      "size": [
+        1448,
+        894
+      ],
+      "sources": [
+        "codex-clipboard-df652a73-5b38-49c6-adad-f1e1c6afeeab.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/36.png"
+    },
+    {
+      "id": "37",
+      "sha256": "404c240bfb49477590ac9b4c7ab5ac49bc959ab3ad1c5e66c523124053a644f0",
+      "size": [
+        1378,
+        732
+      ],
+      "sources": [
+        "codex-clipboard-e6c69e1c-2537-4cca-8b2d-041969466c27.png"
+      ],
+      "asset": "assets/user-approved-activity-systems-20261117/37.png"
+    },
+    {
+      "id": "38",
+      "sha256": "ecefc2622e974dbf0667e14b21a0bc2ec6ac98ccd3f7d22086da1a7facceef28",
+      "size": [
+        958,
+        474
+      ],
+      "sources": [
+        "codex-clipboard-fe535091-8f4d-4f92-b5c2-779d113b1236.png"
+      ],
+      "asset": "assets/user-approved-themed-ui-20261117/05.png"
+    }
+  ]
+}

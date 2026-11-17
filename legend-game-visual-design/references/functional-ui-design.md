@@ -4,18 +4,21 @@ When the user provides in-game Legend/Mir UI screenshots or empty panel frames, 
 
 ### Approved Circular Panels And Story Quest Art
 
+- For 世界地图选区、龙宫探索/排行、战令矩阵、收藏图鉴、档位礼包对比、宝阁奖池 and 开服活动多子页, read the relevant section of [approved-activity-systems-20261117.md](approved-activity-systems-20261117.md). It adds 38 distinct screenshot references from the user's local directory, with source mapping in the linked manifest. Reuse stable series shells while adapting internal layouts to the actual function.
+
 - For 圆盘养成、八卦、神器、镶嵌、剧情任务图、NPC功能图、专属装备任务、功法或秘境解锁, read [approved-ui-story-20261110.md](approved-ui-story-20261110.md). It records 18 user-approved examples and links their original images.
 - Distinguish standard functional windows from illustrated quest/function panels. Standard windows retain the dry black-iron default. Story/function panels may use a themed character, creature, location, calligraphic heading, and localized cyan, green, red, or gold light while keeping actual text, attributes, costs, rewards, and item slots readable.
 - Do not force illustrated quest panels into a generic title-bar/left-navigation/bottom-button template, or mistake them for buy-traffic banners because they contain large art and titles. Classify by the task, progression, and interaction content.
 - Approval applies to composition and visual language; low-resolution compression, unreadable small text, and uncertain exterior transparency in the examples are not output requirements.
+- For 武神养成、专属装备展示、五行礼包、主题特权、元素切换 and 跨服地图宣战, also read the relevant category in [approved-themed-ui-20261117.md](approved-themed-ui-20261117.md). These user-approved themed in-game interfaces may use sculpted dragon silhouettes, strong local gold/red or blue effects, and irregular edges. They are a separate branch from quiet standard lists; keep text and controls readable and follow the current prototype.
 
 Preferred panel language:
 
 - User-trained default taste for all functional UI:
-  - 标准功能窗口默认使用低饱和、干燥黑铁；活动、福利、商城也必须先读成粗粝的传奇端游黑铁界面，不能另起亮金手游材质体系。插画式剧情任务与专属功能图按上面的独立分支选择主题场景和局部配色，信息区仍保持清晰可读。
+  - 标准功能窗口默认使用低饱和、干燥黑铁，常规活动列表、福利列表与商城表格沿用这一默认。插画式剧情任务、主题礼包、特权与专属功能按上面的独立分支选择主题场景和局部配色，可以使用参考中明确出现的金龙、法阵与强主题光，信息区仍保持清晰可读，不自动改成光滑手游材质。
   - 古铜与暗金仅用于少量标题文字、按钮细边、关键数值或极小结构提示，不作为大面积主材质；大面仍由暗石、干燥黑铁和低亮内容床承担。
   - 重度做旧必须遵循“外重内静”：外框、标题条、按钮外壳、铆钉和机械结构可以有明显划痕、氧化、缺口与石化磨损；内容床、文字底和道具格内部保持安静、低噪声、可读。
-  - 优先拒绝现代手游化、玻璃拟态、亮渐变、胶囊按钮，以及装饰压过功能、黑金假高级和全面脏旧。龙头、角花、宝石与金边不能侵占真实内容；整屏亮金、均匀金色描边、奢华会所感和内容区全面高噪声做旧都属于失败方向。
+  - 优先拒绝现代手游化、玻璃拟态、胶囊按钮，以及装饰压过功能、黑金假高级和全面脏旧。龙头、角花、宝石与金边不能侵占真实内容；整屏等亮、均匀金色描边、奢华会所感和内容区全面高噪声做旧都属于失败方向。主题金龙或发光按钮按相关参考选用，不把它们一概当作失败信号。
 - Use dark stone, black iron, aged bronze, muted gold, and cold silver as the base material palette.
 - Prefer carved metal frames with dragon heads, claw corners, scrollwork, red cloth ribbons, or restrained flame accents.
 - Good frame references from user: thin layered outer borders in weathered bronze/cold iron, with scratched stone-metal texture, beveled inner rails, and small dragon/claw corner accents that extend outside the rectangle without stealing content space.

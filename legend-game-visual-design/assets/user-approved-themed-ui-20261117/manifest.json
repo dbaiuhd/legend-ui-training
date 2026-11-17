@@ -1,0 +1,97 @@
+{
+  "provenance": "Restored missing subject references from the user-provided jn batch on 2026-11-17; original upload bytes unavailable, not asserted byte-identical to prior uploads.",
+  "images": [
+    {
+      "id": "01",
+      "uploads": [
+        1
+      ],
+      "restored_from_batch_id": "20",
+      "asset": "assets/user-approved-themed-ui-20261117/01.png",
+      "size": [
+        1260,
+        706
+      ],
+      "sha256": "fc490a0f6fa62a952a6a464f5067b31e95b4b9131b433cb7753a74d9ebbe2841"
+    },
+    {
+      "id": "02",
+      "uploads": [
+        2
+      ],
+      "restored_from_batch_id": "09",
+      "asset": "assets/user-approved-themed-ui-20261117/02.png",
+      "size": [
+        1255,
+        710
+      ],
+      "sha256": "579838ef5030e929e8039cf4f26543a478b5d6d4f5aaa5c457ba658521615542"
+    },
+    {
+      "id": "03",
+      "uploads": [
+        3
+      ],
+      "restored_from_batch_id": "25",
+      "asset": "assets/user-approved-themed-ui-20261117/03.png",
+      "size": [
+        1208,
+        728
+      ],
+      "sha256": "4b03f84d89585d372b5bf7f28c6d647084730a284a6a2b4e7c2a09eb83359839"
+    },
+    {
+      "id": "04",
+      "uploads": [
+        4
+      ],
+      "restored_from_batch_id": "18",
+      "asset": "assets/user-approved-themed-ui-20261117/04.png",
+      "size": [
+        1230,
+        692
+      ],
+      "sha256": "f465283da1a8aedf3901e2fb3bbf4d2b3f4840698ae7b1ed81959f32892eaa87"
+    },
+    {
+      "id": "05",
+      "uploads": [
+        5
+      ],
+      "restored_from_batch_id": "38",
+      "asset": "assets/user-approved-themed-ui-20261117/05.png",
+      "size": [
+        958,
+        474
+      ],
+      "sha256": "ecefc2622e974dbf0667e14b21a0bc2ec6ac98ccd3f7d22086da1a7facceef28"
+    },
+    {
+      "id": "06",
+      "uploads": [
+        6
+      ],
+      "restored_from_batch_id": "06",
+      "asset": "assets/user-approved-themed-ui-20261117/06.png",
+      "size": [
+        1092,
+        607
+      ],
+      "sha256": "55e421ab7259722cf968f745ac6a1c14c0daf5906e88562262df3efcf192a49e"
+    },
+    {
+      "id": "07",
+      "uploads": [
+        7,
+        8
+      ],
+      "restored_from_batch_id": "07",
+      "asset": "assets/user-approved-themed-ui-20261117/07.png",
+      "size": [
+        1442,
+        757
+      ],
+      "sha256": "621e2f5771bd15e8ad45bc1346b1c3d8c7b12644804ee50293f485483c8a27a7"
+    }
+  ]
+}
