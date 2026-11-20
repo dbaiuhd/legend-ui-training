@@ -22,6 +22,7 @@ description: Design, analyze, and write image prompts for Chinese Legend/Mir gam
 | 剧情任务、NPC功能、专属装备、功法、秘境解锁 | [approved-ui-story-20261110.md](references/approved-ui-story-20261110.md) 的剧情规则与相关原图 06–18 | 出现常规按钮、道具槽等组件时补充对应 UI 规则 |
 | 武神养成、装备展示、五行礼包、主题特权弹窗、元素切换、跨服地图宣战 | [approved-themed-ui-20261117.md](references/approved-themed-ui-20261117.md)，按类别查看相关原图 | 属性表、列表与常规控件补充功能窗口规则；圆盘补充既有圆盘规则 |
 | 传奇超变主题面板：特权、赞助、鬼器打造、金身、龙脉、血狱、境界突破 | [超变主题面板](references/chaobian-themed-panels.md)，按原型选取参考 | 指定“暗黑超变”时，仅借鉴符合该分支要求的布局 |
+| 暗黑超变活动、四档角色选择、渡劫/锻造、冰域挑战、角色圆盘、三档投资、动态奖励 GIF | [暗黑超变活动与动态面板](references/chaobian-activity-motion.md)，按原型查看对应素材 | 手游适配规则；指定“暗黑超变”时遵循黑金薄边与少量红纹 |
 | 世界地图选区、龙宫探索/排行、战令矩阵、收藏图鉴、档位礼包对比、宝阁奖池、开服活动多子页、共壳的养成入口与单件进阶 | [活动系统参考](references/approved-activity-systems-20261117.md)，按索引查看相关原图；紧凑窗口见其中的手游补充 | 标准表格补充功能窗口规则；武神、元素与特权按需补充主题界面规则 |
 | 怪物图鉴、地图/副本入口、小型合成窗、每日奖励、分档礼包、经典圆盘或角色养成 | [approved-legacy-ui-20261120.md](references/approved-legacy-ui-20261120.md)，按类别查看相关原图 | 标准功能窗口规则；圆盘养成补充既有圆盘规则；礼包按需补充主题礼包规则 |
 | 手游界面适配、横竖屏弹窗、触控按钮、安全区、底部操作栏、移动版列表与滚动内容 | [mobile-ui-design.md](references/mobile-ui-design.md) | 再按具体功能读取图鉴、圆盘、礼包或活动参考 |

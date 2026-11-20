@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-20",
+  "source": "User-attached WebP and GIF references in upload order",
+  "count": 10,
+  "images": [
+    {
+      "id": "01",
+      "file": "01.webp",
+      "role": "四档奇遇选择",
+      "size": [
+        240,
+        118
+      ],
+      "format": "WEBP",
+      "frames": 1,
+      "duration_ms": null,
+      "bytes": 8378,
+      "sha256": "5f982de55da6c0bcd052737790d5b360a2351dbbcb0a274fd809e90abaec6e64"
+    },
+    {
+      "id": "02",
+      "file": "02.webp",
+      "role": "四件渡劫使者选择",
+      "size": [
+        240,
+        122
+      ],
+      "format": "WEBP",
+      "frames": 1,
+      "duration_ms": null,
+      "bytes": 7418,
+      "sha256": "7aa098d55d1ca5db364074a6dc6b903e8cadbd67960a165cc327cb4ee0a5a705"
+    },
+    {
+      "id": "03",
+      "file": "03.gif",
+      "role": "动态技能/属性面板",
+      "size": [
+        240,
+        123
+      ],
+      "format": "GIF",
+      "frames": 16,
+      "duration_ms": 60,
+      "bytes": 59745,
+      "sha256": "1419f751f023855bc41955c9c7a5c6b88927a111009d1eb11dde96104ed3d23b"
+    },
+    {
+      "id": "04",
+      "file": "04.webp",
+      "role": "单项渡劫/突破",
+      "size": [
+        240,
+        151
+      ],
+      "format": "WEBP",
+      "frames": 1,
+      "duration_ms": null,
+      "bytes": 6858,
+      "sha256": "8b0a685f24f140c63418da50df86de3cf49e42cc470bc05bdde8a82d111c89c0"
+    },
+    {
+      "id": "05",
+      "file": "05.gif",
+      "role": "动态装备锻造",
+      "size": [
+        240,
+        127
+      ],
+      "format": "GIF",
+      "frames": 17,
+      "duration_ms": 60,
+      "bytes": 84012,
+      "sha256": "8ef980ef49bab3833e3a510a65e6b98dd7f52c24a5d9571bb0785fd904f31f5b"
+    },
+    {
+      "id": "06",
+      "file": "06.gif",
+      "role": "散人运营奖励",
+      "size": [
+        240,
+        167
+      ],
+      "format": "GIF",
+      "frames": 14,
+      "duration_ms": 60,
+      "bytes": 45422,
+      "sha256": "3136acf504c766a3ff905b89d8e81e159414e3e2dba1a99df9b66c2e2aaf0225"
+    },
+    {
+      "id": "07",
+      "file": "07.gif",
+      "role": "冰域传送/挑战",
+      "size": [
+        240,
+        146
+      ],
+      "format": "GIF",
+      "frames": 12,
+      "duration_ms": 60,
+      "bytes": 70782,
+      "sha256": "98767dbbf0b3068425cf73bc642676b25a62ba7c30a73bc116834792b7336d8a"
+    },
+    {
+      "id": "08",
+      "file": "08.webp",
+      "role": "角色圆盘养成",
+      "size": [
+        240,
+        135
+      ],
+      "format": "WEBP",
+      "frames": 1,
+      "duration_ms": null,
+      "bytes": 7130,
+      "sha256": "05f2606d8d72e1ecfa765659ee1717092d4149db0b5a74bc4841004fb1f7e453"
+    },
+    {
+      "id": "09",
+      "file": "09.webp",
+      "role": "三档投资/赞助",
+      "size": [
+        240,
+        135
+      ],
+      "format": "WEBP",
+      "frames": 1,
+      "duration_ms": null,
+      "bytes": 8550,
+      "sha256": "6a2e5b9b6cfbd0833ebcda168cb3979200b426b961a9b2c21d393699e397e31b"
+    },
+    {
+      "id": "10",
+      "file": "10.gif",
+      "role": "奇珍宝库动态奖励",
+      "size": [
+        240,
+        117
+      ],
+      "format": "GIF",
+      "frames": 15,
+      "duration_ms": 60,
+      "bytes": 50723,
+      "sha256": "f215a956607181a76412faca38ed7c0d4fee584fcef01847dd4013db123d7d2e"
+    }
+  ]
+}
