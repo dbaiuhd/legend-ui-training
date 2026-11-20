@@ -7,7 +7,7 @@ description: Design, analyze, and write image prompts for Chinese Legend/Mir gam
 
 ## 目标与使用方式
 
-设计要让传奇玩家辨认出熟悉的端游气质：厚重、清楚、功能可信。保留用户指定的版式与内容，按资产类型选择材质、构图和信息层级。
+设计要让传奇玩家辨认出熟悉的端游气质，并将它落地为可触控、可读、适配手机屏幕的手游界面。保留用户指定的版式与内容，按资产类型选择材质、构图和信息层级。
 
 用户说“用传奇技能优化此图”“按传奇技能优化”时直接使用本技能。先判断图片用途，再读取对应参考；将要求展开为具体设计语言，不把技能名、内部口令或参考板编号写进外部生图提示词。
 
@@ -23,12 +23,13 @@ description: Design, analyze, and write image prompts for Chinese Legend/Mir gam
 | 武神养成、装备展示、五行礼包、主题特权弹窗、元素切换、跨服地图宣战 | [approved-themed-ui-20261117.md](references/approved-themed-ui-20261117.md)，按类别查看相关原图 | 属性表、列表与常规控件补充功能窗口规则；圆盘补充既有圆盘规则 |
 | 世界地图选区、龙宫探索/排行、战令矩阵、收藏图鉴、档位礼包对比、宝阁奖池、开服活动多子页 | [approved-activity-systems-20261117.md](references/approved-activity-systems-20261117.md)，按索引查看相关原图 | 标准表格补充功能窗口规则；武神、元素与特权按需补充主题界面规则 |
 | 怪物图鉴、地图/副本入口、小型合成窗、每日奖励、分档礼包、经典圆盘或角色养成 | [approved-legacy-ui-20261120.md](references/approved-legacy-ui-20261120.md)，按类别查看相关原图 | 标准功能窗口规则；圆盘养成补充既有圆盘规则；礼包按需补充主题礼包规则 |
+| 手游界面适配、横竖屏弹窗、触控按钮、安全区、底部操作栏、移动版列表与滚动内容 | [mobile-ui-design.md](references/mobile-ui-design.md) | 再按具体功能读取图鉴、圆盘、礼包或活动参考 |
 | 宣传图、买量图、商店五图、公众号横幅、开服 KV | [marketing-design.md](references/marketing-design.md) | 买量任务读取 [买量板](references/huaban-buy-traffic-board.md)；横幅/KV 读取 [banner 板](references/huaban-19157479-banner-board.md) |
 | 独立游戏 Logo、题字、标题资产 | [logo-design.md](references/logo-design.md) | 只借用其他类别中与本任务相关的材质或字形线索 |
 
 按用户目标和实际功能分类。剧情图有大人物和题字也可能是游戏内任务；包含背包或奖励表的图片也可能是广告。混合任务选择主要用途，再补充必要组件规则。常规 UI 不加载宣传板，也不套用广告 CTA、夸张数字或红金火焰。
 
-本地花瓣素材在 `assets/huaban-board-100278708/raw`，来源索引在 `assets/huaban-board-100278708/manifest.json`；用户认可的 18 张面板与剧情图在 `assets/user-approved-ui-story-20261110/`；2026-11-17 上传的 8 张主题界面去重后为 7 张，位于 `assets/user-approved-themed-ui-20261117/`。同日从 `jn` 目录补充 44 个文件、38 张不重复活动系统参考，入口为 `assets/user-approved-activity-systems-20261117/manifest.json`；2026-11-20 再补充 7 张经典端游 UI 参考，入口为 `assets/user-approved-legacy-ui-20261120/manifest.json`。完全相同的既有素材复用原路径，文件对应关系以各 manifest 为准。只查看当前类别需要的样例。这些是参考资料，不代表模型权重经过训练。
+本地花瓣素材在 `assets/huaban-board-100278708/raw`，来源索引在 `assets/huaban-board-100278708/manifest.json`；用户认可的 18 张面板与剧情图在 `assets/user-approved-ui-story-20261110/`；2026-11-17 上传的 8 张主题界面去重后为 7 张，位于 `assets/user-approved-themed-ui-20261117/`。同日从 `jn` 目录补充 44 个文件、38 张不重复活动系统参考，入口为 `assets/user-approved-activity-systems-20261117/manifest.json`；2026-11-20 再补充 7 张经典端游 UI 参考，入口为 `assets/user-approved-legacy-ui-20261120/manifest.json`。手游适配规则入口为 [mobile-ui-design.md](references/mobile-ui-design.md)。完全相同的既有素材复用原路径，文件对应关系以各 manifest 为准。只查看当前类别需要的样例。这些是参考资料，不代表模型权重经过训练。
 
 ## 共同工作要求
 
@@ -40,7 +41,7 @@ description: Design, analyze, and write image prompts for Chinese Legend/Mir gam
 
 ## 做旧质感与干净度
 
-“干净”指结构清楚、材质有控制、内容可读；允许粗粝黑铁、石纹、雕刻、氧化、缺口和磨损。保持端游贴图的颗粒尺度与边缘厚度，避免把表面磨成平滑塑料或光亮手游金属。
+“干净”指结构清楚、材质有控制、内容可读；允许粗粝黑铁、石纹、雕刻、氧化、缺口和磨损。保留端游贴图的颗粒尺度与边缘厚度，同时按手机显示尺寸收敛噪声，避免表面塑料化、光亮手游金属化或装饰盖住触控信息。
 
 - 外重内静：磨损集中在外框、倒角、铆钉、标题条、按钮外壳、圆环机械和经常接触的边缘。文字底、道具槽内部和属性表保持低对比、低噪声。
 - 纹理有依据：划痕跟随接触与磨损方向，氧化聚集于凹槽和连接处，浅浮雕沿结构分布。避免均匀铺满随机颗粒、裂纹和红黑污斑。

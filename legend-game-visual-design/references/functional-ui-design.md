@@ -11,15 +11,16 @@ When the user provides in-game Legend/Mir UI screenshots or empty panel frames, 
 - Do not force illustrated quest panels into a generic title-bar/left-navigation/bottom-button template, or mistake them for buy-traffic banners because they contain large art and titles. Classify by the task, progression, and interaction content.
 - Approval applies to composition and visual language; low-resolution compression, unreadable small text, and uncertain exterior transparency in the examples are not output requirements.
 - For 武神养成、专属装备展示、五行礼包、主题特权、元素切换 and 跨服地图宣战, also read the relevant category in [approved-themed-ui-20261117.md](approved-themed-ui-20261117.md). These user-approved themed in-game interfaces may use sculpted dragon silhouettes, strong local gold/red or blue effects, and irregular edges. They are a separate branch from quiet standard lists; keep text and controls readable and follow the current prototype.
-- For 怪物图鉴、地图/副本入口、小型合成窗、每日奖励、分档礼包、经典圆盘或角色养成, read the relevant section in [approved-legacy-ui-20261120.md](approved-legacy-ui-20261120.md). It records seven user-attached classic PC-client references and their local manifest.
+- For 怪物图鉴、地图/副本入口、小型合成窗、每日奖励、分档礼包、经典圆盘或角色养成, read the relevant section in [approved-legacy-ui-20261120.md](approved-legacy-ui-20261120.md). It records seven user-attached classic references and their local manifest.
+- When the deliverable is a mobile interface, also read [mobile-ui-design.md](mobile-ui-design.md). Keep the learned Legend material and hierarchy, then adapt the layout to touch targets, safe areas, screen ratio, scrolling, and persistent primary actions.
 
 Preferred panel language:
 
 - User-trained default taste for all functional UI:
-  - 标准功能窗口默认使用低饱和、干燥黑铁，常规活动列表、福利列表与商城表格沿用这一默认。插画式剧情任务、主题礼包、特权与专属功能按上面的独立分支选择主题场景和局部配色，可以使用参考中明确出现的金龙、法阵与强主题光，信息区仍保持清晰可读，不自动改成光滑手游材质。
+  - 标准功能窗口默认使用低饱和、干燥黑铁，常规活动列表、福利列表与商城表格沿用这一默认。手游版可以扩大触控区域、提高选中态对比并设置底部主要操作栏。插画式剧情任务、主题礼包、特权与专属功能按上面的独立分支选择主题场景和局部配色，信息区仍保持清晰可读。
   - 古铜与暗金仅用于少量标题文字、按钮细边、关键数值或极小结构提示，不作为大面积主材质；大面仍由暗石、干燥黑铁和低亮内容床承担。
   - 重度做旧必须遵循“外重内静”：外框、标题条、按钮外壳、铆钉和机械结构可以有明显划痕、氧化、缺口与石化磨损；内容床、文字底和道具格内部保持安静、低噪声、可读。
-  - 优先拒绝现代手游化、玻璃拟态、胶囊按钮，以及装饰压过功能、黑金假高级和全面脏旧。龙头、角花、宝石与金边不能侵占真实内容；整屏等亮、均匀金色描边、奢华会所感和内容区全面高噪声做旧都属于失败方向。主题金龙或发光按钮按相关参考选用，不把它们一概当作失败信号。
+  - 避免无功能的玻璃拟态、胶囊按钮、满屏渐变和装饰压过功能，也避免黑金假高级和全面脏旧。手游需要清楚的按下、选中、禁用、冷却和可领取状态，龙头、角花、宝石与金边不能侵占真实内容。主题金龙或发光按钮按相关参考选用，不把它们一概当作失败信号。
 - Use dark stone, black iron, aged bronze, muted gold, and cold silver as the base material palette.
 - Prefer carved metal frames with dragon heads, claw corners, scrollwork, red cloth ribbons, or restrained flame accents.
 - Good frame references from user: thin layered outer borders in weathered bronze/cold iron, with scratched stone-metal texture, beveled inner rails, and small dragon/claw corner accents that extend outside the rectangle without stealing content space.
@@ -32,7 +33,7 @@ Preferred panel language:
 - Reward/activity list panels should use calm horizontal rows: dark row strips, clear icon slots, small gold/green/red state text, right-aligned stone-metal claim buttons, and tabs that look embedded into the frame rather than floating.
 - Empty crafting/awakening frames can use a heavier industrial fantasy language: gunmetal rails, rivets, red cloth tassels, subtle circular mechanism engraving, gold arrow accents, and deep matte center areas reserved for equipment slots.
 - Prefer worn, dry, low-saturation material over glossy luxury: chipped silver edges, oxidized bronze seams, dusty black stone, soot-dark leather, and muted red cloth; avoid bright polished gold, smooth plastic bevels, or modern glassy panels.
-- For benefit/shop/pop-up panels, prefer compact PC-client proportions: narrow top title strip, left dark navigation column, calm central reward area, consistent square item slots, and clickable stone/metal buttons with crisp bevels.
+- For benefit/shop/pop-up panels, start from a compact functional shell and adapt it to the target mobile orientation: narrow title strip, restrained navigation, calm central reward area, consistent square item slots, touch-sized stone/metal buttons, and a persistent primary action when the content scrolls.
 - Selected or paid tiers can use a restrained hot-gold/red rim glow around the panel edge, but the unselected base frames should stay darker, flatter, and more aged.
 - Keep the center content area calm, dark, and flat enough to hold dense Chinese text, item grids, maps, or reward rows.
 - Use ornamental corners and title plaques as identity signals, but keep the main body rectangular, stable, and easy to scan.
@@ -51,8 +52,8 @@ Useful layout patterns from these references:
 
 Huaban UI component references:
 
-- Treat Huaban board examples such as btn1_81bfbcc.png as button asset guidance: build full button sets, not isolated decorative plates. A usable Legend PC-client button set needs normal, hover, pressed, selected, disabled, and insufficient-resource states with consistent width, bevel, shadow, and Chinese label placement.
-- Button assets should use stone, aged bronze, dark iron, muted gold trim, and crisp bevels; avoid glossy mobile gradients, pill-shaped modern buttons, and oversized bloom. Button text should be short, centered, and high-contrast Chinese such as 强化, 刷新, 激活, 领取, 确认, 前往, and 购买.
+- Treat Huaban board examples such as btn1_81bfbcc.png as button asset guidance: build full button sets, not isolated decorative plates. A usable mobile Legend button set needs normal, pressed, selected, disabled, insufficient-resource, cooldown, and claimable states with consistent touch size, bevel, shadow, and Chinese label placement.
+- Button assets should use stone, aged bronze, dark iron, muted gold trim, and crisp bevels; avoid generic glossy gradients, pill-shaped controls, and oversized bloom. Button text should be short, centered, high-contrast Chinese such as 强化, 刷新, 激活, 领取, 确认, 前往, and 购买, with enough padding for touch.
 - Treat frame_chat_02-like references as practical chat/message frame assets, not ornate pop-up windows. Chat frames need dark semi-transparent message beds, compact channel tabs, readable message rows, an input strip, and a small send/action button without covering gameplay.
 - Chat/message borders should stay thin and low-contrast so text remains primary; use aged metal corners only as subtle anchors, and preserve enough transparency for in-game overlay use while keeping Chinese messages legible.
 - Treat achieve_bg-like references as achievement, codex, quest, or collection panel beds: left category list or top tabs, repeated achievement rows, badge/icon slots, progress text, completed/uncompleted states, and right-aligned reward or claim controls.
@@ -60,8 +61,8 @@ Huaban UI component references:
 - Treat bg_win32, bg, bk, and mb references as reusable window background beds: dark stone, soot leather, black iron, or brown-black matte surfaces with thin inner borders, quiet divider lines, and a center content bed calmer than the frame.
 - Treat 超变框, common_door1, and named frame assets as reusable nine-slice frame references. Corners may carry dragon claws, metal knots, gems, cloth ties, or carved motifs, but straight edges should remain continuous and stretchable.
 - Nine-slice frame assets should preserve transparent exterior pixels, clean inner safe margins, and a rectangular content opening that can hold dense Chinese UI; do not let corner sculptures intrude into tab labels, close buttons, item grids, or primary action areas.
-- Avoid modern mobile UI drift: do not turn Legend UI into glossy mobile-game panels, glassmorphism, soft rounded cards, pill buttons, pastel gradients, or generic anime RPG interfaces. Keep rounded corners small and structural, not app-like cards.
-- If a Huaban reference feels like a modern mobile activity page, borrow only spacing clarity, not the surface material language; keep the final interface grounded in rough PC-client Legend/Mir materials.
+- Avoid generic mobile UI drift: do not turn Legend UI into glassmorphism, soft rounded cards, pastel gradients, or generic anime RPG interfaces. Keep rounded corners small and structural, while allowing mobile-specific touch spacing and fixed bottom actions.
+- If a reference feels like a modern mobile activity page, borrow its spacing clarity and touch hierarchy only when useful. Keep the final interface grounded in rough Legend/Mir materials and the current mobile prototype.
 
 Full Huaban UI board learning signals:
 
@@ -72,7 +73,7 @@ Full Huaban UI board learning signals:
 - Nine-slice/frame references include NPC dialogue frames, common_door1, 超变框, sponsor frames, dragon frames, and strip frames. Use them to guide stretchable frame construction: stable straight edges, decorative corners, transparent exterior margins, and a content opening that remains function-first.
 - Achievement, codex, quest, and atlas references often appear as texture atlases or panel beds rather than complete screens. Convert them into usable layouts with category tabs, repeated rows, badge slots, progress bars, reward cells, and right-aligned action buttons.
 - Inventory/item-grid references include icon sheets, goods icons, 56-128px item assets, and backpack-like collections. Keep item slots square, gutters consistent, icon glow contained inside slots, and row/column rhythm stronger than decoration.
-- Activity/reward references may drift toward web event pages or mobile campaigns. Borrow only the clear reward hierarchy, state labels, and claim-button rhythm; keep the material language rough, dark, bronze/iron, and PC-client oriented.
+- Activity/reward references may drift toward web event pages or mobile campaigns. Borrow the clear reward hierarchy, state labels, claim-button rhythm, and touch spacing; keep the material language rough, dark, bronze/iron, and appropriate to the current mobile prototype.
 - Map references should be treated as functional travel panels: map image or region list, current-location highlight, boss/teleport markers, reward strip, and a compact cost/confirm area. Do not turn map panels into cinematic landscape posters.
 - HUD/full-screen references are useful for structure: dense top bars, side icons, quest stacks, chat strips, minimaps, item bars, and modal layering. Extract layout density and interaction hierarchy, but do not copy unrelated web-page or xianxia/mobile visual language.
 - AI-generated material references should be used cautiously. They can suggest silhouette, material mood, or fantasy motifs, but should not override functional UI requirements, readable Chinese text, clean grid alignment, or Legend PC-client roughness.
@@ -81,7 +82,7 @@ Full Huaban UI board learning signals:
 In-game UI constraints:
 
 - Do not replace readable UI panels with cinematic backgrounds; gameplay UI needs quiet surfaces more than spectacle.
-- Do not over-polish the frame into a glossy modern mobile-game style; keep the rough PC-client Legend texture.
+- Do not replace the Legend material language with a generic glossy mobile-game template. Mobile touch affordances can be clear and generous while the frame remains rough, layered, and functional.
 - Avoid oversized decoration that steals space from item grids, descriptions, tab labels, close buttons, or action buttons.
 - Avoid noisy texture directly behind dense Chinese text; use dark translucent backing strips when text sits over a scene or map.
 - Keep close buttons, arrows, tabs, claim buttons, and item slots visually consistent across a panel set.
@@ -103,7 +104,7 @@ Bad Reference Signals From This Batch:
 Panel prompt additions:
 
 ```text
-参考传奇端游内置UI面板风格：黑铁/石纹/古铜/暗金材质，龙纹或金属角花点缀，中心内容区保持深色安静，适合承载中文说明、道具格、奖励表和按钮。
+参考传奇内置手游 UI 面板风格：黑铁/石纹/古铜/暗金材质，龙纹或金属角花点缀，中心内容区保持深色安静，适合承载中文说明、道具格、奖励表和可触控按钮。
 按实际功能选择顶部标题牌、关闭按钮、导航或标签、内容区、道具格和操作按钮；保留原图已有结构，不机械补齐所有控件。
 不要做成宣传海报，不要铺满火焰和粒子，不要让装饰压缩功能区域，不要把文字放在复杂背景上。
 ```
