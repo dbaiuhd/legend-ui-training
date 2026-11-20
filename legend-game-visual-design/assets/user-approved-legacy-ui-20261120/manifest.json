@@ -1,0 +1,14 @@
+{
+  "source": "User-attached WebP files in the 2026-11-20 conversation",
+  "date": "2026-11-20",
+  "count": 7,
+  "images": [
+    {"id": "01", "file": "01.webp", "role": "怪物图鉴", "size": [658, 434], "sha256": "0d63797b7ca7bfe0156b2c4c1fd192e70032076e87df1944bf67b9778cfe61b6"},
+    {"id": "02", "file": "02.webp", "role": "小型合成/装备操作窗", "size": [240, 162], "sha256": "394bcac2b9ba0347ff9170defee70357c7edaf928722c7dc78602dbc1883a62c"},
+    {"id": "03", "file": "03.webp", "role": "地图或副本入口选择", "size": [240, 245], "sha256": "df657f4028b509e2829b9b7014492df580c8708cd693148308e75e9e64c7603d"},
+    {"id": "04", "file": "04.webp", "role": "分档礼包/奖励购买", "size": [240, 143], "sha256": "3a4faa7b018a9d4fe828d0e341e5755a6221b77a422b6fc8724fbd65ce8c8c78"},
+    {"id": "05", "file": "05.webp", "role": "每日奖励/多档领取", "size": [240, 111], "sha256": "d430914d409f9146b2dd450bd71e4be8a7170739612dee656b2c5011393b073a"},
+    {"id": "06", "file": "06.webp", "role": "装备或属性圆盘养成", "size": [240, 155], "sha256": "172f3b88d883aa012294534b6c4041cb5dce906fb43f5abb13c49615a8403db7"},
+    {"id": "07", "file": "07.webp", "role": "角色养成/技能装备列表", "size": [240, 124], "sha256": "d8963e03438804c807c398843474d28f5f8f97adbf798ae359be8e4fef1318b2"}
+  ]
+}

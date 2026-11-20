@@ -13,6 +13,8 @@ description: Design, analyze, and write image prompts for Chinese Legend/Mir gam
 
 ## 按资产读取规则
 
+用户指定“暗黑超变”，或继续本套超变界面时，先读独立风格规范 [暗黑超变](references/dark-chaobian.md)，再按实际功能补充下表中的布局规则。当前为黑金主调、少量红色魔纹、薄边框，不使用黑铁。本分支要求优先于通用参考中的黑铁、厚框、龙头、标题牌与重装饰建议；不把该分支配色推广到其他传奇项目。
+
 | 当前任务 | 必须读取 | 按需补充 |
 | --- | --- | --- |
 | 标准功能窗口、边框、按钮、奖励列表、聊天框、背包格、九宫格 | [functional-ui-design.md](references/functional-ui-design.md) | 单个组件读取 [UI 组件板](references/huaban-87590395-legend-ui-popup-board.md)；成套弹窗读取 [成套 UI 板](references/huaban-90162179-legend-ui-popup-board.md) |
@@ -20,12 +22,13 @@ description: Design, analyze, and write image prompts for Chinese Legend/Mir gam
 | 剧情任务、NPC功能、专属装备、功法、秘境解锁 | [approved-ui-story-20261110.md](references/approved-ui-story-20261110.md) 的剧情规则与相关原图 06–18 | 出现常规按钮、道具槽等组件时补充对应 UI 规则 |
 | 武神养成、装备展示、五行礼包、主题特权弹窗、元素切换、跨服地图宣战 | [approved-themed-ui-20261117.md](references/approved-themed-ui-20261117.md)，按类别查看相关原图 | 属性表、列表与常规控件补充功能窗口规则；圆盘补充既有圆盘规则 |
 | 世界地图选区、龙宫探索/排行、战令矩阵、收藏图鉴、档位礼包对比、宝阁奖池、开服活动多子页 | [approved-activity-systems-20261117.md](references/approved-activity-systems-20261117.md)，按索引查看相关原图 | 标准表格补充功能窗口规则；武神、元素与特权按需补充主题界面规则 |
+| 怪物图鉴、地图/副本入口、小型合成窗、每日奖励、分档礼包、经典圆盘或角色养成 | [approved-legacy-ui-20261120.md](references/approved-legacy-ui-20261120.md)，按类别查看相关原图 | 标准功能窗口规则；圆盘养成补充既有圆盘规则；礼包按需补充主题礼包规则 |
 | 宣传图、买量图、商店五图、公众号横幅、开服 KV | [marketing-design.md](references/marketing-design.md) | 买量任务读取 [买量板](references/huaban-buy-traffic-board.md)；横幅/KV 读取 [banner 板](references/huaban-19157479-banner-board.md) |
 | 独立游戏 Logo、题字、标题资产 | [logo-design.md](references/logo-design.md) | 只借用其他类别中与本任务相关的材质或字形线索 |
 
 按用户目标和实际功能分类。剧情图有大人物和题字也可能是游戏内任务；包含背包或奖励表的图片也可能是广告。混合任务选择主要用途，再补充必要组件规则。常规 UI 不加载宣传板，也不套用广告 CTA、夸张数字或红金火焰。
 
-本地花瓣素材在 `assets/huaban-board-100278708/raw`，来源索引在 `assets/huaban-board-100278708/manifest.json`；用户认可的 18 张面板与剧情图在 `assets/user-approved-ui-story-20261110/`；2026-11-17 上传的 8 张主题界面去重后为 7 张，位于 `assets/user-approved-themed-ui-20261117/`。同日从 `jn` 目录补充 44 个文件、38 张不重复活动系统参考，入口为 `assets/user-approved-activity-systems-20261117/manifest.json`；完全相同的既有素材复用原路径，文件对应关系以各 manifest 为准。只查看当前类别需要的样例。这些是参考资料，不代表模型权重经过训练。
+本地花瓣素材在 `assets/huaban-board-100278708/raw`，来源索引在 `assets/huaban-board-100278708/manifest.json`；用户认可的 18 张面板与剧情图在 `assets/user-approved-ui-story-20261110/`；2026-11-17 上传的 8 张主题界面去重后为 7 张，位于 `assets/user-approved-themed-ui-20261117/`。同日从 `jn` 目录补充 44 个文件、38 张不重复活动系统参考，入口为 `assets/user-approved-activity-systems-20261117/manifest.json`；2026-11-20 再补充 7 张经典端游 UI 参考，入口为 `assets/user-approved-legacy-ui-20261120/manifest.json`。完全相同的既有素材复用原路径，文件对应关系以各 manifest 为准。只查看当前类别需要的样例。这些是参考资料，不代表模型权重经过训练。
 
 ## 共同工作要求
 

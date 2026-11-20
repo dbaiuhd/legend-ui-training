@@ -11,6 +11,7 @@ When the user provides in-game Legend/Mir UI screenshots or empty panel frames, 
 - Do not force illustrated quest panels into a generic title-bar/left-navigation/bottom-button template, or mistake them for buy-traffic banners because they contain large art and titles. Classify by the task, progression, and interaction content.
 - Approval applies to composition and visual language; low-resolution compression, unreadable small text, and uncertain exterior transparency in the examples are not output requirements.
 - For 武神养成、专属装备展示、五行礼包、主题特权、元素切换 and 跨服地图宣战, also read the relevant category in [approved-themed-ui-20261117.md](approved-themed-ui-20261117.md). These user-approved themed in-game interfaces may use sculpted dragon silhouettes, strong local gold/red or blue effects, and irregular edges. They are a separate branch from quiet standard lists; keep text and controls readable and follow the current prototype.
+- For 怪物图鉴、地图/副本入口、小型合成窗、每日奖励、分档礼包、经典圆盘或角色养成, read the relevant section in [approved-legacy-ui-20261120.md](approved-legacy-ui-20261120.md). It records seven user-attached classic PC-client references and their local manifest.
 
 Preferred panel language:
 
