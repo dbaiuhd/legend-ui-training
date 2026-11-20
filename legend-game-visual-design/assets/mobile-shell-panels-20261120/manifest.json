@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-20",
+  "source": "User-attached WebP screenshots in upload order",
+  "count": 7,
+  "images": [
+    {
+      "id": "01",
+      "file": "01.webp",
+      "source_file": "codex-clipboard-b04805f2-09e3-4813-a2db-74436ecc9f2b.webp",
+      "role": "养成入口总览",
+      "size": [
+        240,
+        136
+      ],
+      "sha256": "3eb90bdb8cf8b00f8c19b6dd352eccf428536da226d1dac709b0ae7c92577302"
+    },
+    {
+      "id": "02",
+      "file": "02.webp",
+      "source_file": "codex-clipboard-d2cdf3be-a4d1-4673-af70-ddd1be8c9aa1.webp",
+      "role": "人物插画与奖励横排",
+      "size": [
+        240,
+        136
+      ],
+      "sha256": "ca7d1ea69f9d462d18676a817d13fde1a4653f77022a2fc0f2f07d51c31f8c2d"
+    },
+    {
+      "id": "03",
+      "file": "03.webp",
+      "source_file": "codex-clipboard-94cf9067-70f6-402d-818b-db8a35e3baec.webp",
+      "role": "选中条目与单件操作",
+      "size": [
+        240,
+        137
+      ],
+      "sha256": "3fff52f5132f9d2d32ba5720893411e23b6c33a3f318e857a7e61e810661930a"
+    },
+    {
+      "id": "04",
+      "file": "04.webp",
+      "source_file": "codex-clipboard-8736bcca-3fae-4bbd-981a-c05d90c0059c.webp",
+      "role": "旗帜主体与信息分栏",
+      "size": [
+        240,
+        136
+      ],
+      "sha256": "88a55c59d61f9a7f176bdbde4c762e7f5df983b7e6defff2dff4d8c300730408"
+    },
+    {
+      "id": "05",
+      "file": "05.webp",
+      "source_file": "codex-clipboard-21be9f1d-53ff-4f2c-b411-0b5881e692e5.webp",
+      "role": "活动转盘与说明",
+      "size": [
+        240,
+        136
+      ],
+      "sha256": "0a673522c0f922401d06ad93a7888fb268259ebce6897eb9591683d1858e5297"
+    },
+    {
+      "id": "06",
+      "file": "06.webp",
+      "source_file": "codex-clipboard-42cf8acf-7791-4f14-a298-0b3b32d4d9b5.webp",
+      "role": "主题题字与奖励操作",
+      "size": [
+        240,
+        136
+      ],
+      "sha256": "1997ab84a209bd95de53f5e95106846699e5929d0cb8a18ba3495f788e25b0ab"
+    },
+    {
+      "id": "07",
+      "file": "07.webp",
+      "source_file": "codex-clipboard-83edb26c-bcb5-4641-b3af-f3d9ae81a4d2.webp",
+      "role": "独立插画奖励弹窗",
+      "size": [
+        240,
+        136
+      ],
+      "sha256": "c7dbd83de327b4ada921344af348b26008af53b6085c048e04c4858d8090b355"
+    }
+  ]
+}
