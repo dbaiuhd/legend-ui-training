@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-20",
+  "source": "User-provided Legend chaobian game panel references",
+  "count": 8,
+  "images": [
+    {
+      "id": "01",
+      "file": "01.jpg",
+      "source_file": "超级特权.jpg",
+      "role": "权益解锁",
+      "size": [
+        830,
+        500
+      ],
+      "kind": "original",
+      "sha256": "c3d77ff8b476faf998dc0f66943e828acae754240cb04852c096d321e92c4744"
+    },
+    {
+      "id": "02",
+      "file": "02.png",
+      "source_file": "参考.png",
+      "role": "道具进阶截图",
+      "size": [
+        898,
+        537
+      ],
+      "kind": "original",
+      "sha256": "e0d0f42fae7adfb5f31cdf0d3518c18fbafec69680b28a3c65e2767df1248870"
+    },
+    {
+      "id": "03",
+      "file": "03.png",
+      "source_file": "会员赞助.png",
+      "role": "赞助提升",
+      "size": [
+        830,
+        500
+      ],
+      "kind": "original",
+      "sha256": "4b37bd45a42801a6aa3449f01347dd9ebc48cbb3458a31c7ce2247d445c88d60"
+    },
+    {
+      "id": "04",
+      "file": "04.jpg",
+      "source_file": "九幽鬼器.jpg",
+      "role": "并列打造",
+      "size": [
+        830,
+        500
+      ],
+      "kind": "original",
+      "sha256": "f8e1d79bd7c64506760bc60acc649385368ae53231d1db3b259ce32dd058478f"
+    },
+    {
+      "id": "05",
+      "file": "05.jpg",
+      "source_file": "龙脉.jpg",
+      "role": "龙脉进阶",
+      "size": [
+        830,
+        500
+      ],
+      "kind": "original",
+      "sha256": "fbe5b588bde1e3b04d07c0bf9dd443232af008e916f28d92a69a13c4979be727"
+    },
+    {
+      "id": "06",
+      "file": "06.png",
+      "source_file": "血狱不灭.png",
+      "role": "带空台座的进阶底板",
+      "size": [
+        825,
+        498
+      ],
+      "kind": "original",
+      "sha256": "0552944925cbaf53d1c17f9ad00842c1925f2ced07c6cdbff0af3bf74ea6221a"
+    },
+    {
+      "id": "07",
+      "file": "07.jpg",
+      "source_file": "境界突破.jpg",
+      "role": "环绕节点养成截图",
+      "size": [
+        830,
+        500
+      ],
+      "kind": "original",
+      "sha256": "236c11ecf40c3021a4ef403003e4c766b63bd12c5f5b604862a1ed79dd660eb7"
+    },
+    {
+      "id": "08",
+      "file": "08.png",
+      "source_file": "金身.psd",
+      "role": "人物进阶底板",
+      "size": [
+        830,
+        500
+      ],
+      "kind": "PSD composite preview",
+      "sha256": "9a6d1c66d50607d4b5c89f27877a1cf0426799218fc6aa6fb5762644fb0e7455",
+      "source_sha256": "029fb80601ac4b8d549abdd8c17a5af333380b9ee1ba8624201901f17e5141eb"
+    }
+  ]
+}
